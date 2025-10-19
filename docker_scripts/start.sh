@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 cleanup() {
     echo "Stopping container, cleaning up..."
@@ -35,8 +35,8 @@ sleep 1
 
 export ROS_LOCALHOST_ONLY=1
 export ROS_DOMAIN_ID=0
-source /opt/ros/jazzy/setup.bash
-if [ -f /workspace/install/setup.bash ]; then source /workspace/install/setup.bash; fi
+source /opt/ros/jazzy/setup.zsh
+if [ -f /workspace/install/setup.zsh ]; then source /workspace/install/setup.zsh; fi
 
 echo "Starting rviz2..."
 rviz2 2>&1 | grep -v "^\\[WARN\\]" | grep -v "QStandardPaths" &
