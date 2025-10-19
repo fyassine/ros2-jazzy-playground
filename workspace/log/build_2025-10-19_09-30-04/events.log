@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000904] (robot_demo) JobQueued: {'identifier': 'robot_demo', 'dependencies': OrderedDict()}
+[0.001253] (robot_demo) JobStarted: {'identifier': 'robot_demo'}
+[0.098519] (-) TimerEvent: {}
+[0.202789] (-) TimerEvent: {}
+[0.304306] (-) TimerEvent: {}
+[0.407240] (-) TimerEvent: {}
+[0.508258] (-) TimerEvent: {}
+[0.609253] (-) TimerEvent: {}
+[0.710743] (-) TimerEvent: {}
+[0.750549] (robot_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_demo', 'build', '--build-base', '/workspace/build/robot_demo/build', 'install', '--record', '/workspace/build/robot_demo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/robot_demo', 'env': {'HOSTNAME': '5a2049d24f60', 'GIT_ASKPASS': '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-b78c19a4-9784-4d02-8912-31dd5dcb9507.sock', 'ZSH': '/root/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node', 'P9K_TTY': 'old', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'REMOTE_CONTAINERS': 'true', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e238fd6f-5a76-4212-95c5-547564fc1a0d.sock', 'LOGNAME': 'root', '_P9K_SSH_TTY': '/dev/pts/3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/root', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'UV_USE_IO_URING': '0', 'PATH': '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'DISPLAY': ':1', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-e238fd6f-5a76-4212-95c5-547564fc1a0d.sock","/root/.gnupg/S.gpg-agent"]', 'LANG': 'C.UTF-8', 'VSCODE_INJECTION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-d242602f49.sock', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-e238fd6f-5a76-4212-95c5-547564fc1a0d.sock', 'SHELL': '/bin/zsh', 'P9K_SSH': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': '983f8740-c995-474b-abba-48c1474a271a', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspace/build/robot_demo', 'ZDOTDIR': '/root', '_P9K_TTY': '/dev/pts/3', 'PYTHONPATH': '/workspace/build/robot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.811886] (-) TimerEvent: {}
+[0.916259] (-) TimerEvent: {}
+[0.969203] (robot_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.970118] (robot_demo) StdoutLine: {'line': b'creating ../../build/robot_demo/robot_demo.egg-info\n'}
+[0.978209] (robot_demo) StdoutLine: {'line': b'writing ../../build/robot_demo/robot_demo.egg-info/PKG-INFO\n'}
+[0.979349] (robot_demo) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_demo/robot_demo.egg-info/dependency_links.txt\n'}
+[0.979994] (robot_demo) StdoutLine: {'line': b'writing entry points to ../../build/robot_demo/robot_demo.egg-info/entry_points.txt\n'}
+[0.980637] (robot_demo) StdoutLine: {'line': b'writing requirements to ../../build/robot_demo/robot_demo.egg-info/requires.txt\n'}
+[0.981318] (robot_demo) StdoutLine: {'line': b'writing top-level names to ../../build/robot_demo/robot_demo.egg-info/top_level.txt\n'}
+[1.017255] (-) TimerEvent: {}
+[1.019267] (robot_demo) StdoutLine: {'line': b"writing manifest file '../../build/robot_demo/robot_demo.egg-info/SOURCES.txt'\n"}
+[1.039246] (robot_demo) StdoutLine: {'line': b"reading manifest file '../../build/robot_demo/robot_demo.egg-info/SOURCES.txt'\n"}
+[1.040487] (robot_demo) StdoutLine: {'line': b"writing manifest file '../../build/robot_demo/robot_demo.egg-info/SOURCES.txt'\n"}
+[1.040933] (robot_demo) StdoutLine: {'line': b'running build\n'}
+[1.041373] (robot_demo) StdoutLine: {'line': b'running build_py\n'}
+[1.041846] (robot_demo) StdoutLine: {'line': b'creating /workspace/build/robot_demo/build\n'}
+[1.042306] (robot_demo) StdoutLine: {'line': b'creating /workspace/build/robot_demo/build/lib\n'}
+[1.042725] (robot_demo) StdoutLine: {'line': b'creating /workspace/build/robot_demo/build/lib/robot_demo\n'}
+[1.042962] (robot_demo) StdoutLine: {'line': b'copying robot_demo/robot_publisher.py -> /workspace/build/robot_demo/build/lib/robot_demo\n'}
+[1.043620] (robot_demo) StdoutLine: {'line': b'copying robot_demo/__init__.py -> /workspace/build/robot_demo/build/lib/robot_demo\n'}
+[1.044291] (robot_demo) StdoutLine: {'line': b'copying robot_demo/robot_listener.py -> /workspace/build/robot_demo/build/lib/robot_demo\n'}
+[1.045368] (robot_demo) StdoutLine: {'line': b'running install\n'}
+[1.050085] (robot_demo) StdoutLine: {'line': b'running install_lib\n'}
+[1.059372] (robot_demo) StdoutLine: {'line': b'creating /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo\n'}
+[1.059965] (robot_demo) StdoutLine: {'line': b'copying /workspace/build/robot_demo/build/lib/robot_demo/robot_publisher.py -> /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo\n'}
+[1.060916] (robot_demo) StdoutLine: {'line': b'copying /workspace/build/robot_demo/build/lib/robot_demo/__init__.py -> /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo\n'}
+[1.061747] (robot_demo) StdoutLine: {'line': b'copying /workspace/build/robot_demo/build/lib/robot_demo/robot_listener.py -> /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo\n'}
+[1.063227] (robot_demo) StdoutLine: {'line': b'byte-compiling /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo/robot_publisher.py to robot_publisher.cpython-312.pyc\n'}
+[1.066919] (robot_demo) StdoutLine: {'line': b'byte-compiling /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo/__init__.py to __init__.cpython-312.pyc\n'}
+[1.068251] (robot_demo) StdoutLine: {'line': b'byte-compiling /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo/robot_listener.py to robot_listener.cpython-312.pyc\n'}
+[1.069644] (robot_demo) StdoutLine: {'line': b'running install_data\n'}
+[1.070196] (robot_demo) StdoutLine: {'line': b'creating /workspace/install/robot_demo/share/ament_index\n'}
+[1.070530] (robot_demo) StdoutLine: {'line': b'creating /workspace/install/robot_demo/share/ament_index/resource_index\n'}
+[1.071015] (robot_demo) StdoutLine: {'line': b'creating /workspace/install/robot_demo/share/ament_index/resource_index/packages\n'}
+[1.071558] (robot_demo) StdoutLine: {'line': b'copying resource/robot_demo -> /workspace/install/robot_demo/share/ament_index/resource_index/packages\n'}
+[1.072103] (robot_demo) StdoutLine: {'line': b'copying package.xml -> /workspace/install/robot_demo/share/robot_demo\n'}
+[1.072888] (robot_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.083565] (robot_demo) StdoutLine: {'line': b'Copying ../../build/robot_demo/robot_demo.egg-info to /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo-0.0.0-py3.12.egg-info\n'}
+[1.088924] (robot_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.118249] (-) TimerEvent: {}
+[1.128995] (robot_demo) StdoutLine: {'line': b'Installing robot_listener script to /workspace/install/robot_demo/lib/robot_demo\n'}
+[1.130025] (robot_demo) StdoutLine: {'line': b'Installing robot_publisher script to /workspace/install/robot_demo/lib/robot_demo\n'}
+[1.131227] (robot_demo) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/robot_demo/install.log'\n"}
+[1.151757] (robot_demo) CommandEnded: {'returncode': 0}
+[1.166623] (robot_demo) JobEnded: {'identifier': 'robot_demo', 'rc': 0}
+[1.168307] (-) EventReactorShutdown: {}

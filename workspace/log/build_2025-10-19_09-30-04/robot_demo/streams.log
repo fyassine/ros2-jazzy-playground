@@ -1,0 +1,41 @@
+[0.754s] Invoking command in '/workspace/src/robot_demo': PYTHONPATH=/workspace/build/robot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_demo build --build-base /workspace/build/robot_demo/build install --record /workspace/build/robot_demo/install.log --single-version-externally-managed install_data
+[0.969s] running egg_info
+[0.971s] creating ../../build/robot_demo/robot_demo.egg-info
+[0.977s] writing ../../build/robot_demo/robot_demo.egg-info/PKG-INFO
+[0.978s] writing dependency_links to ../../build/robot_demo/robot_demo.egg-info/dependency_links.txt
+[0.979s] writing entry points to ../../build/robot_demo/robot_demo.egg-info/entry_points.txt
+[0.980s] writing requirements to ../../build/robot_demo/robot_demo.egg-info/requires.txt
+[0.980s] writing top-level names to ../../build/robot_demo/robot_demo.egg-info/top_level.txt
+[1.018s] writing manifest file '../../build/robot_demo/robot_demo.egg-info/SOURCES.txt'
+[1.039s] reading manifest file '../../build/robot_demo/robot_demo.egg-info/SOURCES.txt'
+[1.040s] writing manifest file '../../build/robot_demo/robot_demo.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.041s] creating /workspace/build/robot_demo/build
+[1.041s] creating /workspace/build/robot_demo/build/lib
+[1.042s] creating /workspace/build/robot_demo/build/lib/robot_demo
+[1.042s] copying robot_demo/robot_publisher.py -> /workspace/build/robot_demo/build/lib/robot_demo
+[1.043s] copying robot_demo/__init__.py -> /workspace/build/robot_demo/build/lib/robot_demo
+[1.043s] copying robot_demo/robot_listener.py -> /workspace/build/robot_demo/build/lib/robot_demo
+[1.047s] running install
+[1.050s] running install_lib
+[1.059s] creating /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo
+[1.059s] copying /workspace/build/robot_demo/build/lib/robot_demo/robot_publisher.py -> /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo
+[1.060s] copying /workspace/build/robot_demo/build/lib/robot_demo/__init__.py -> /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo
+[1.061s] copying /workspace/build/robot_demo/build/lib/robot_demo/robot_listener.py -> /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo
+[1.062s] byte-compiling /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo/robot_publisher.py to robot_publisher.cpython-312.pyc
+[1.066s] byte-compiling /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo/__init__.py to __init__.cpython-312.pyc
+[1.068s] byte-compiling /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo/robot_listener.py to robot_listener.cpython-312.pyc
+[1.069s] running install_data
+[1.069s] creating /workspace/install/robot_demo/share/ament_index
+[1.070s] creating /workspace/install/robot_demo/share/ament_index/resource_index
+[1.070s] creating /workspace/install/robot_demo/share/ament_index/resource_index/packages
+[1.071s] copying resource/robot_demo -> /workspace/install/robot_demo/share/ament_index/resource_index/packages
+[1.071s] copying package.xml -> /workspace/install/robot_demo/share/robot_demo
+[1.072s] running install_egg_info
+[1.083s] Copying ../../build/robot_demo/robot_demo.egg-info to /workspace/install/robot_demo/lib/python3.12/site-packages/robot_demo-0.0.0-py3.12.egg-info
+[1.088s] running install_scripts
+[1.128s] Installing robot_listener script to /workspace/install/robot_demo/lib/robot_demo
+[1.129s] Installing robot_publisher script to /workspace/install/robot_demo/lib/robot_demo
+[1.130s] writing list of installed files to '/workspace/build/robot_demo/install.log'
+[1.151s] Invoked command in '/workspace/src/robot_demo' returned '0': PYTHONPATH=/workspace/build/robot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_demo build --build-base /workspace/build/robot_demo/build install --record /workspace/build/robot_demo/install.log --single-version-externally-managed install_data

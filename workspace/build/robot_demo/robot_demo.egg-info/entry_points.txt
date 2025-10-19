@@ -1,0 +1,3 @@
+[console_scripts]
+robot_listener = robot_demo.robot_listener:main
+robot_publisher = robot_demo.robot_publisher:main
